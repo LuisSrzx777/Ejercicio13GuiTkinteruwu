@@ -35,3 +35,29 @@ Python 3.6 o superior instalado
 MySQL Server instalado y ejecutándose
 
 Tkinter (generalmente incluido con Python)
+
+
+Crear la base de datos en MySQL:
+
+CREATE DATABASE empresa_db;
+USE empresa_db;
+
+CREATE TABLE empleados (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    sexo ENUM('Masculino', 'Femenino', 'Otro') NOT NULL,
+    correo VARCHAR(150) NOT NULL UNIQUE,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+Configurar conexión en el código:
+Editar las credenciales en el archivo main.py:
+
+python
+db_config = {
+    "host": "127.0.0.1",      # o "localhost"
+    "user": "root",           # tu usuario MySQL
+    "password": "tu_password", # tu contraseña MySQL
+    "database": "empresa_db"
+}
