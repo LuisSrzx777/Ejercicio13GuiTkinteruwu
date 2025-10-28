@@ -25,3 +25,13 @@ Tkinter (Interfaz gráfica)
 MySQL Connector (Base de datos)
 
 MySQL Server (Motor de base de datos)
+
+
+🚀 Instalación y Configuración
+
+Prerrequisitos
+Python 3.6 o superior instalado
+
+MySQL Server instalado y ejecutándose
+
+Tkinter (generalmente incluido con Python)
