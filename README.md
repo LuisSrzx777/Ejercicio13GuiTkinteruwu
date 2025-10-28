@@ -37,7 +37,7 @@ MySQL Server instalado y ejecutándose
 Tkinter (generalmente incluido con Python)
 
 
--Crear la base de datos en MySQL:
+1. Crear la base de datos en MySQL:
 
 CREATE DATABASE empresa_db;
 USE empresa_db;
@@ -52,7 +52,7 @@ CREATE TABLE empleados (
 );
 
 
-Configurar conexión en el código:
+2. Configurar conexión en el código:
 Editar las credenciales en el archivo main.py:
 
 python
