@@ -5,7 +5,7 @@ Sistema de Registro de Empleados
 Descripción del Proyecto
 Sistema de gestión de empleados desarrollado en Python con interfaz gráfica Tkinter y base de datos MySQL. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros de empleados de una empresa.
 
-✨ Características Principales
+##✨ Características Principales
 Interfaz gráfica intuitiva con Tkinter
 
 Conexión segura a MySQL con consultas parametrizadas
@@ -18,7 +18,7 @@ Arquitectura MVC (Modelo-Vista-Controlador)
 
 Código modular y escalable
 
-🛠️ Tecnologías Utilizadas
+##🛠️ Tecnologías Utilizadas
 Python 3.x
 
 Tkinter (Interfaz gráfica)
@@ -28,7 +28,7 @@ MySQL Connector (Base de datos)
 MySQL Server (Motor de base de datos)
 
 
-🚀 Instalación y Configuración
+##🚀 Instalación y Configuración
 
 Prerrequisitos
 Python 3.6 o superior instalado
@@ -38,25 +38,24 @@ MySQL Server instalado y ejecutándose
 Tkinter (generalmente incluido con Python)
 
 
-1. Crear la base de datos en MySQL:
+##1. Crear la base de datos en MySQL:
 
-CREATE DATABASE empresa_db;
-USE empresa_db;
+    CREATE DATABASE empresa_db;
+    USE empresa_db;
 
-CREATE TABLE empleados (
+    CREATE TABLE empleados (
 
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     sexo ENUM('Masculino', 'Femenino', 'Otro') NOT NULL,
     correo VARCHAR(150) NOT NULL UNIQUE,
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+    );
 
-
-2. Configurar conexión en el código:
+##2. Configurar conexión en el código:
 Editar las credenciales en el archivo main.py:
 
-python
+##python
 db_config = {
 
     "host": "127.0.0.1",      # o "localhost"
