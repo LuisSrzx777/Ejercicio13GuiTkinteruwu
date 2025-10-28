@@ -63,4 +63,4 @@ Editar las credenciales en el archivo main.py:
     "password": "tu_password", # tu contraseña MySQL
     "database": "empresa_db"
     }
-#Creador por LuisSrzuwuaña123pepinocontajin
+# Creador por LuisSrzuwuaña123pepinocontajin
