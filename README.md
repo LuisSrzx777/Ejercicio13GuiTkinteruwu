@@ -1,5 +1,6 @@
 Sistema de Registro de Empleados
 📋 Descripción del Proyecto
+
 Sistema de gestión de empleados desarrollado en Python con interfaz gráfica Tkinter y base de datos MySQL. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros de empleados de una empresa.
 
 ✨ Características Principales
