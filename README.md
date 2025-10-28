@@ -1,3 +1,4 @@
+<img width="1600" height="900" alt="Captura de pantalla (35)" src="https://github.com/user-attachments/assets/07389215-c5fc-4e69-83a3-3f7ad3df8333" />
 Sistema de Registro de Empleados
 📋
 
