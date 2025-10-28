@@ -43,6 +43,7 @@ CREATE DATABASE empresa_db;
 USE empresa_db;
 
 CREATE TABLE empleados (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     sexo ENUM('Masculino', 'Femenino', 'Otro') NOT NULL,
@@ -56,6 +57,7 @@ Editar las credenciales en el archivo main.py:
 
 python
 db_config = {
+
     "host": "127.0.0.1",      # o "localhost"
     "user": "root",           # tu usuario MySQL
     "password": "tu_password", # tu contraseña MySQL
